@@ -60,34 +60,43 @@ header {
 }
 .lista-productos li {
   list-style: none;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
   font-size: 30px;
 }
 
 li img{
     border-width: 15px;
-    border-color: blueviolet;
+    border-color: #a64cfa;
     border-style: inset;
 }
 li img:hover{
     border-color: #6c05cc;
-    transition-delay: 0.5ms;
+    transition: border-color .4s ease-in-out;
 }
 .lista-productos p{
     padding: 5px 0;
     margin: 0;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .boton{
     background-color: yellowgreen;
     display: inline-block;
-    max-width: 200px;
     padding: 1rem 2rem;
     text-decoration: none;
-    color: #b6b603;
+    color: #ffffbd;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .boton:hover{
     color: yellow;
+    background-color: #7cb900;
+    
+}
+span{
+    font-size: 50px;
+    color:  yellow;
+    font-weight: bold;
 }
